@@ -1,0 +1,34 @@
+.results tr[visible='false'], .no-result {
+  display: none;
+}
+
+.counter {
+  padding: 8px;
+  color: #cccccc;
+}
+
+.search {
+  width: 32vh;
+  margin: 2px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#nbar_s {
+  background-color: #90969a;
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: solid 1px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+#tws {
+  background-color: #f1f7fc;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
